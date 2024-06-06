@@ -1,0 +1,51 @@
+.follow-container {
+    background: rgba(22, 34, 42, 0.7);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.follow-title {
+    color: aqua;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+}
+
+.artist-container {
+    display: flex;
+    overflow-x: scroll;
+    gap: 2%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.follow-artists {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #244b61, #16222A);
+}
+
+.follow-artists:hover {
+    background: #485563;
+    transform: scale(.98);
+}
+
+.artist-container::-webkit-scrollbar {
+    display: none;
+}
+
+.artist-image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.artist-title {
+    color: rgb(197, 200, 175);
+    margin: 10px 0 10px 0;
+    font-size: 13px;
+    text-align: center;
+}
+

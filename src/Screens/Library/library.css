@@ -1,0 +1,8 @@
+.library-top{
+    width: 100%;
+}
+.library-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

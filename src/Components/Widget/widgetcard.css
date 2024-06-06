@@ -1,0 +1,49 @@
+.widgetcard-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 90%;
+    width: 27%;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px 50px 30px;
+    background: linear-gradient(to top, #414345, #232526); 
+
+
+}
+.widgetcard-container:hover{
+    background: linear-gradient(to bottom, #29323c, #485563); 
+
+}
+.widgetcard-title{
+    text-align: center;
+    margin: 20px 0 5px 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(226, 190, 145);
+    color: #7F7B82;
+}
+.explore-icon{
+    transition: all 0.2s ease;
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    right: 7px;
+    font-size: 25px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color:transparent;
+    padding: 5px;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px white;
+}
+.explore-icon:hover{
+    transform: scale(1.05);
+}
+.widgetcard-container:hover .explore-icon{
+    opacity: 1;
+}

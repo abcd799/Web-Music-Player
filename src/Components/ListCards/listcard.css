@@ -1,0 +1,51 @@
+.card-container{
+    height: 290px ;
+    width: 230px;;
+    background-color: #080808;
+    transition:all 0.2s ease;
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.playlist-image,.browse-image{
+    height: 200px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 20px 20px 0 0;
+
+}
+.playlist-name,.browse-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    color:white;
+}
+.browse-name{
+    margin: 30px 0 0 15px;
+}
+.playlist-total{
+    font-weight: 550;
+    font-size: 14px;
+    margin: 10px 0 0 10px;
+    color:white;
+}
+.card-container:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 5px 1px white;
+}
+.play-icon{
+    color: #00ff00;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 35px;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+    border-radius: 50%;
+}
+.card-container:hover .play-icon{
+    opacity: 1;
+}
+.play-icon:hover{
+    transform:scale(1.20);
+}

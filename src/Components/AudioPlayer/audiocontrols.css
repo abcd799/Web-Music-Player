@@ -1,0 +1,42 @@
+.controls-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.pre-btn, .next-btn,.repone-btn,.norep-btn,.shuffle-btn,.noshuffle-btn,.play-btn,.pause-btn{
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    border-radius: 10px;
+    color: darkblue;
+    box-shadow: 1px 1px 1px 1px  black;
+    transition:all 0.5s ease;
+}
+.pre-btn,.next-btn{
+    font-size: 45px;
+}
+.repone-btn,.norep-btn,.shuffle-btn,.noshuffle-btn{
+    font-size: 25px;
+    padding: 10px;
+}
+.play-btn,.pause-btn{
+    font-size: 35px;
+    padding: 5px;
+}
+.pre-btn:hover,.next-btn:hover,.repone-btn:hover,.norep-btn:hover,.play-btn:hover,.pause-btn:hover,.shuffle-btn:hover,.noshuffle-btn:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px 0px black;
+
+}
+.controls-wave-animation{
+    width: 40%;
+}
+
+

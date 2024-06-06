@@ -1,0 +1,35 @@
+.widgetinfo-body{
+    display: flex;
+    align-items: center;
+    width:fit-content;
+    height: inherit;
+    transition: all 0.1s ease;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+.widgetinfo-body:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
+.widgetinfo-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetinfo-right{
+    margin-left: 10px;
+    
+}
+.info-title{
+    margin-bottom:0px;
+    color: #BFACB5;
+    font-size: 13px;
+}
+.info-subtitle{
+    color: #7F7B82;
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 14px;
+}

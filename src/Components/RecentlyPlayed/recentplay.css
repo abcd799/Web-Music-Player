@@ -1,0 +1,77 @@
+.recently-played-container{
+    background: rgba(22, 34, 42,0.7); 
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.recently-title{
+    margin: 0 0 10px 0;
+    color: aqua;
+}
+
+.recent-items-container{
+    display: flex;
+    gap: 2%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.recent-items-container::-webkit-scrollbar{
+    display: none;
+}
+.recent-play-item{
+    padding: 10px;
+    background: linear-gradient(to right, #414345, #232526); 
+    border-radius: 10px;
+    position: relative;
+    height: 220px;
+}
+.recent-play-circle,.recent-pause-circle{
+    opacity: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: green;
+    background-color: black;
+    border-radius: 50%;
+    transition: all 0.5 ease;
+}
+.recent-play-circle:hover, .recent-pause-circle:hover{
+    transform: scale(1.2);
+}
+.recent-play-item:hover .recent-play-circle{
+    opacity: 1;
+}
+
+.active{
+    opacity: 1;
+}
+.recent-play-item:hover{
+    background: linear-gradient(to left, #7423dd, #03ed2e); 
+}
+
+.recent-active-card{
+    background: linear-gradient(to left, #7423dd, #03ed2e); 
+    box-shadow: 1px 1px 3px 3px  black;
+}
+.recent-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.recent-trackname{
+    color: bisque;
+    font-size: 14px;
+    width: 80%;
+    overflow: hidden   ;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-left: 10px;
+}
+
+.recent-wave-animation{
+    width: 50%;
+    gap: 20px;
+}

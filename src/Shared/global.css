@@ -1,0 +1,11 @@
+.screen-container {
+    margin: 0;
+    width: calc(100% - 100px);
+    margin-left: 100px;
+    min-height: 100vh;
+    background-color: #000000;
+    opacity: 0.9;
+    background-image:  repeating-radial-gradient( circle at center left, transparent 0, #000000 100px ), repeating-linear-gradient( #39393a55, #39393a );
+    padding: 20px;
+    overflow-x: hidden;
+}

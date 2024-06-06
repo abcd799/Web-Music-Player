@@ -1,0 +1,42 @@
+.nosongs-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    align-items: center;
+    font-family: serif;
+    border-radius: 20px;
+    background-image: repeating-radial-gradient(
+        circle at 0 0,
+        transparent 0,
+        #360b33 30px
+      ),
+      repeating-linear-gradient(#121111,  rgb(26, 21, 21));
+
+}
+.nosongs-heading{
+    font-size: 40px;
+    margin: 15% 0% 3% 0% ;
+    color: #E178C5;
+}
+.nosongs-subheading{
+    font-size: 22px;
+    margin-bottom: 5%;
+    color: #CCD3CA;
+}
+.nosongs-button{
+    padding:10px;
+    background-color: rgba(0, 128, 0,1);
+    color: #E2DFD0;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: none;
+    font-family: serif;
+
+}
+.nosongs-button:hover{
+    background-color: rgba(0, 128, 0,1);
+    box-shadow: 0 0 3px 1px white;
+}

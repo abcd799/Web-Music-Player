@@ -1,0 +1,59 @@
+.sidebar {
+    width: 100px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.profile-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    margin-top: 20px;
+}
+
+.username {
+    color: white;
+    font-size: 12px;
+}
+
+.icon {
+    width: 25px;
+    height: auto;
+    mix-blend-mode: difference;
+    color: #fff685;
+}
+
+
+.button {
+    margin: 10px 0 20px 0;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.button.active,
+.button:hover {
+    background-color: #102929;
+    border: 1px solid silver;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.sidebar-links {
+    text-decoration: none;
+}
